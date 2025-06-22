@@ -4,11 +4,11 @@
 A curated collection of astronomical images organized by object type and resolution. Intended for use in educational, outreach, visualization, and research projects.
 
 ---
-# 🌌 Table of contents
+## 🌌 Table of contents
 
 - [🌌 Astronomy Images Repository](#-astronomy-images-repository)
   - [Most complete Astronomy IC/NGC/Messier images catalog available](#most-complete-astronomy-icngcmessier-images-catalog-available)
-- [🌌 Table of contents](#-table-of-contents)
+  - [🌌 Table of contents](#-table-of-contents)
   - [📂 Folder Structure Overview](#-folder-structure-overview)
   - [🧭 Image Categories](#-image-categories)
   - [📄 JSON Metadata Structure (`*_images.json`)](#-json-metadata-structure-_imagesjson)
