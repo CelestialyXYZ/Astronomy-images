@@ -1,0 +1,58 @@
+PS C:\Users\ecoqu\Code\projets\Celestialy\website-files> node index
+√ Enter the input directory path: ... assets/
+√ Enter the output directory path: ... images/dso/
+√ Do you want to empty the output directory before processing? ... yes
+√ Select dimensions to generate (space to select, enter to confirm): » 1920x1280, 1280x900, 500x300
+Output directory "images/dso/" cleared.
+Generating 1920x1280 images...
+Generating images for catalog "ic"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "ic" in 4456.804 seconds.
+Generating images for catalog "messier"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "messier" in 135.315 seconds.
+Generating images for catalog "ngc"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "ngc" in 6113.263 seconds.
+Finished processing 1920x1280 images in 10705.388 seconds.
+Generating 1280x900 images...
+Generating images for catalog "ic"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "ic" in 1729.582 seconds.
+Generating images for catalog "messier"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "messier" in 104.768 seconds.
+Generating images for catalog "ngc"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "ngc" in 3468.513 seconds.
+Finished processing 1280x900 images in 5302.868 seconds.
+Generating 500x300 images...
+Generating images for catalog "ic"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "ic" in 639.327 seconds.
+Generating images for catalog "messier"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "messier" in 78.598 seconds.
+Generating images for catalog "ngc"...
+[====================================================================================================] 100% 0.0s
+
+Done.
+Finished processing catalog "ngc" in 1307.849 seconds.
+Finished processing 500x300 images in 2025.779 seconds.
+Total program runtime: 18044.771 seconds.

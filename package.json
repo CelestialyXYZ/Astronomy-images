@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"axios": "^1.7.7",
+		"colorette": "^2.0.20",
+		"jimp": "^0.22.12",
+		"progress": "^2.0.3",
+		"prompts": "^2.4.2",
+		"uuid": "^11.0.2"
+	}
+}
