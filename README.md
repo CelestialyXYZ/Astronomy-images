@@ -46,6 +46,46 @@ images/
 
 ---
 
+## 📄 JSON Metadata Structure (`*_images.json`)
+
+Each Deep Sky Object image folder includes a metadata file named like `ngc_1976_images.json`. This file describes the object and its associated image(s).
+
+### JSON Structure Overview
+
+| Field    | Type     | Description                                 |
+| -------- | -------- | ------------------------------------------- |
+| `name`   | `string` | Full object name (e.g., `"NGC1976"`)        |
+| `id`     | `number` | Object catalog number (e.g., `1976`)        |
+| `images` | `array`  | List of image entries (see subfields below) |
+
+### `images[]` Entry Fields
+
+| Field         | Type      | Description                                                                  |
+| ------------- | --------- | ---------------------------------------------------------------------------- |
+| `filename`    | `string`  | File name of the image (e.g., `"ngc_1976_default.jpg"`)                      |
+| `description` | `string`  | Short image description or caption                                           |
+| `origin_url`  | `string`  | Source or reference URL for the image                                        |
+| `is_default`  | `boolean` | Indicates if this image is the default/primary for the object (`true/false`) |
+
+### Example
+
+```json
+{
+  "name": "NGC1976",
+  "id": 1976,
+  "images": [
+    {
+      "filename": "ngc_1976_default.jpg",
+      "description": "HST image of NGC 1976, also known as M42, the Orion Nebula",
+      "origin_url": "https://cseligman.com/text/atlas/ngc19a.htm#1976",
+      "is_default": true
+    }
+  ]
+}
+```
+
+---
+
 ## 🌐 How to Request an Asset (via [Statically CDN](https://statically.io))
 
 You can load any asset directly from this repository using Statically's CDN. Replace `<path>` with the relative file path from the `images/` folder.
