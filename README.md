@@ -1,85 +1,146 @@
-
 # 🌌 Astronomy Images Repository
+## Most complete Astronomy IC/NGC/Messier images catalog available
 
-This repository contains a structured collection of astronomical images used for education, visualization, and research purposes. Images are organized by object type, resolution, and catalog.
+A curated collection of astronomical images organized by object type and resolution. Intended for use in educational, outreach, visualization, and research projects.
 
-## 📁 Folder Structure
+---
+
+## 📂 Folder Structure Overview
 
 ```
 images/
 ├── constellations/
-│   ├── jpg/
-│   └── pdf/
-├── dso/                    # Deep Sky Objects
-│   ├── ic/
-│   │   ├── 1280x900/
-│   │   ├── 1920x1280/
-│   │   └── 500x300/
-│   ├── messier/
-│   │   ├── 1280x900/
-│   │   ├── 1920x1280/
-│   │   └── 500x300/
-│   └── ngc/
-│       ├── 1280x900/
-│       ├── 1920x1280/
-│       └── 500x300/
-├── moon/
-├── not_available/
+│   ├── jpg/   → <IAU_code>.jpg  
+│   └── pdf/   → <IAU_code>.pdf  
+├── dso/                     # Deep Sky Objects
+│   ├── ic/                  # Index Catalogue
+│   │   └── <resolution>/
+│   ├── messier/             # Messier Catalogue
+│   │   └── <resolution>/
+│   └── ngc/                 # New General Catalogue
+│       └── <resolution>/
+├── moon/                    # Lunar images and visualizations
+├── not_available/           # Fallback placeholder images
 │   ├── fallback_1280x900.jpg
 │   ├── fallback_1920x1280.jpg
 │   ├── fallback_500x300.jpg
 │   └── fallback_900x900_inverted.jpg
 ```
 
-## 🖼️ Image Categories
+---
 
-- **Constellations**: Diagrams and sky charts.
-- **DSO (Deep Sky Objects)**: IC, Messier, and NGC catalog images in multiple resolutions.
-  - Each DSO folder contains a lots of images. But there's group of images, to identify the groups, simply read the json file associated with the DSO object like for example :
-  NGC : dso/messier/<"1280x900" or "1920x1280" or "500x300">/messier_42_images.json
-  ```json
-  {"name":"NGC1976","id":1976,"images":[{"filename":"ngc_1976_default.jpg","description":"HST image of NGC 1976, also known as M42, the Orion Nebula","origin_url":"https://cseligman.com/text/atlas/ngc19a.htm#1976","is_default":true}]}
-  ```
-- **Moon**: Lunar visualizations including NASA-generated moon phase loops.
-- **Not Available**: Fallback placeholders.
+## 🧭 Image Categories
 
-## 🎓 Credits & Sources
+* **Constellations**
+  JPEG and PDF sky charts named using their official IAU codes.
 
-- **Courtney Seligman** – Deep sky object illustrations and catalog descriptions:  
-  https://cseligman.com/text/atlas.htm  
-  *Courtney Seligman is an American professor of physics and astronomy. For over 20 years, he has collaborated with others to read, comment on, and illustrate objects from various celestial catalogs. Celestialy uses images from his website.*
+* **DSO (Deep Sky Objects)**
+  Images from the IC, Messier, and NGC catalogs, each available in three resolutions: `500x300`, `1280x900`, and `1920x1280`.
+  Each object includes a `*_images.json` file with images metadata, and available files for the selected object.
 
-- **NASA's Scientific Visualization Studio** – Moon images and animations:  
-  Moon Phase Loop: https://svs.gsfc.nasa.gov/4310  
-  *Credit: NASA's Scientific Visualization Studio*
+* **Moon**
+  High-resolution lunar images and NASA moon phase images in order.
 
-- **Wikipedia – Messier Catalog**:  
-  https://en.wikipedia.org/wiki/Messier_object
+* **Not Available**
+  Fallback images used when an asset is missing.
 
-- **IAU/ESO Archive – Constellation Charts**:  
-  https://iauarchive.eso.org/public/themes/constellations/
+---
 
-- **CelestialyXYZ/Astronomy-images Repository** – Directory organization and formatting by https://github.com/CelestialyXYZ/Astronomy-images
+## 🌐 How to Request an Asset (via [Statically CDN](https://statically.io))
 
-## 🔄 Usage
+You can load any asset directly from this repository using Statically's CDN. Replace `<path>` with the relative file path from the `images/` folder.
 
-These assets are intended for:
-- Educational materials  
-- Astronomy software  
-- Outreach presentations  
-- Research visual aids
-- Celestialy website
+### 🔗 Base URL Format
 
-## 📜 License
+```
+https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/<path>
+```
 
-This repository is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** License.
+### 🧪 Examples
 
+#### 🌀 Deep Sky Object (e.g. NGC 1976, 1280x900)
+
+**Image:**
+
+```
+https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/dso/ngc/1280x900/ngc_1976_default.jpg
+```
+
+**Metadata JSON:**
+
+```
+https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/dso/ngc/1280x900/ngc_1976_images.json
+```
+
+#### 🌙 Moon Phase image
+
+```
+https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/moon/moon_100.jpg
+```
+
+#### 🌌 Constellation Chart (e.g. Orion)
+
+**JPG:**
+
+```
+https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/constellations/jpg/Ori.jpg
+```
+
+**PDF:**
+
+```
+https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/constellations/pdf/Ori.pdf
+```
+
+#### 🔧 Fallback (e.g. if an image is missing)
+
+```
+https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/not_available/fallback_1280x900.jpg
+```
+
+---
+
+## 🏷️ Usage Guidelines
+
+These assets may be used for:
+
+* Astronomy education and classroom materials
+* Visual aids in public talks or planetarium shows
+* Astronomy-related software and applications
+* Celestialy's own digital products
+
+---
+
+## 📚 Credits & Sources
+
+* **Courtney Seligman**
+  [NGC & DSO data](https://cseligman.com/text/atlas.htm)
+
+* **NASA Scientific Visualization Studio**
+  [Moon phase animations](https://svs.gsfc.nasa.gov/4310)
+
+* **Wikipedia**
+  [Messier catalog](https://en.wikipedia.org/wiki/Messier_object)
+
+* **IAU / ESO Archive**
+  [Constellation charts](https://iauarchive.eso.org/public/themes/constellations/)
+
+* **CelestialyXYZ / Astronomy-images Repo**
+  Image hosting & structure: [https://github.com/CelestialyXYZ/Astronomy-images](https://github.com/CelestialyXYZ/Astronomy-images)
+
+---
+
+## ⚖️ License
+
+**Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**
 You are free to:
-- **Share** — copy and redistribute the material in any medium or format  
-- **Adapt** — remix, transform, and build upon the material  
+
+* **Share** — copy and redistribute the material
+* **Adapt** — remix and build upon the material
 
 **Under the following terms:**
-- **Attribution** — You must give appropriate credit to the original sources listed above.
-- **NonCommercial** — You may not use the material for commercial purposes.
 
-📄 Full license: https://creativecommons.org/licenses/by-nc/4.0/
+* **Attribution** — You must credit the original sources listed above and **this repository**.
+* **NonCommercial** — No commercial use permitted.
+
+🔗 [Read the full license](https://creativecommons.org/licenses/by-nc/4.0/)
