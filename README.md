@@ -4,7 +4,30 @@
 A curated collection of astronomical images organized by object type and resolution. Intended for use in educational, outreach, visualization, and research projects.
 
 ---
+# 🌌 Table of contents
 
+- [🌌 Astronomy Images Repository](#-astronomy-images-repository)
+  - [Most complete Astronomy IC/NGC/Messier images catalog available](#most-complete-astronomy-icngcmessier-images-catalog-available)
+- [🌌 Table of contents](#-table-of-contents)
+  - [📂 Folder Structure Overview](#-folder-structure-overview)
+  - [🧭 Image Categories](#-image-categories)
+  - [📄 JSON Metadata Structure (`*_images.json`)](#-json-metadata-structure-_imagesjson)
+    - [JSON Structure Overview](#json-structure-overview)
+    - [`images[]` Entry Fields](#images-entry-fields)
+    - [Example](#example)
+  - [🌐 How to Request an Asset (via Statically CDN)](#-how-to-request-an-asset-via-statically-cdn)
+    - [🔗 Base URL Format](#-base-url-format)
+    - [🧪 Examples](#-examples)
+      - [🌀 Deep Sky Object (e.g. NGC 1976, 1280x900)](#-deep-sky-object-eg-ngc-1976-1280x900)
+      - [🌙 Moon Phase image](#-moon-phase-image)
+      - [🌌 Constellation Chart (e.g. Orion)](#-constellation-chart-eg-orion)
+      - [🔧 Fallback (e.g. if an image is missing)](#-fallback-eg-if-an-image-is-missing)
+  - [🏷️ Usage Guidelines](#️-usage-guidelines)
+  - [📚 Credits \& Sources](#-credits--sources)
+  - [⚖️ License](#️-license)
+
+
+---
 ## 📂 Folder Structure Overview
 
 ```
