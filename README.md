@@ -16,7 +16,6 @@ A curated collection of astronomical images organized by object type and resolut
 
 * [🌌 Astronomy Images Repository](#-astronomy-images-repository)
 
-  * [Most complete Astronomy IC/NGC/Messier images catalog available](#most-complete-astronomy-icngcmessier-images-catalog-available)
   * [🌌 Table of contents](#-table-of-contents)
   * [📂 Folder Structure Overview](#-folder-structure-overview)
   * [🧭 Image Categories](#-image-categories)
