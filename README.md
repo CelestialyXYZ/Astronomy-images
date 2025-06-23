@@ -14,7 +14,7 @@ A curated collection of astronomical images organized by object type and resolut
 
 ## 🌌 Table of contents
 
-* [🌌 Astronomy Images Repository](#-astronomy-images-repository)
+* [Astronomy images repository](#-astronomy-images-repository)
 
   * [🌌 Table of contents](#-table-of-contents)
   * [📂 Folder Structure Overview](#-folder-structure-overview)
