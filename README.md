@@ -1,33 +1,39 @@
 # 🌌 Astronomy Images Repository
+
 ## Most complete Astronomy IC/NGC/Messier images catalog available
 
 A curated collection of astronomical images organized by object type and resolution. Intended for use in educational, outreach, visualization, and research projects.
 
 ---
+
 ## 🌌 Table of contents
 
-- [🌌 Astronomy Images Repository](#-astronomy-images-repository)
-  - [Most complete Astronomy IC/NGC/Messier images catalog available](#most-complete-astronomy-icngcmessier-images-catalog-available)
-  - [🌌 Table of contents](#-table-of-contents)
-  - [📂 Folder Structure Overview](#-folder-structure-overview)
-  - [🧭 Image Categories](#-image-categories)
-  - [📄 JSON Metadata Structure (`*_images.json`)](#-json-metadata-structure-_imagesjson)
-    - [JSON Structure Overview](#json-structure-overview)
-    - [`images[]` Entry Fields](#images-entry-fields)
-    - [Example](#example)
-  - [🌐 How to Request an Asset (via Statically CDN)](#-how-to-request-an-asset-via-statically-cdn)
-    - [🔗 Base URL Format](#-base-url-format)
-    - [🧪 Examples](#-examples)
-      - [🌀 Deep Sky Object (e.g. NGC 1976, 1280x900)](#-deep-sky-object-eg-ngc-1976-1280x900)
-      - [🌙 Moon Phase image](#-moon-phase-image)
-      - [🌌 Constellation Chart (e.g. Orion)](#-constellation-chart-eg-orion)
-      - [🔧 Fallback (e.g. if an image is missing)](#-fallback-eg-if-an-image-is-missing)
-  - [🏷️ Usage Guidelines](#️-usage-guidelines)
-  - [📚 Credits \& Sources](#-credits--sources)
-  - [⚖️ License](#️-license)
+* [🌌 Astronomy Images Repository](#-astronomy-images-repository)
 
+  * [Most complete Astronomy IC/NGC/Messier images catalog available](#most-complete-astronomy-icngcmessier-images-catalog-available)
+  * [🌌 Table of contents](#-table-of-contents)
+  * [📂 Folder Structure Overview](#-folder-structure-overview)
+  * [🧭 Image Categories](#-image-categories)
+  * [📄 JSON Metadata Structure (`*_images.json`)](#-json-metadata-structure-_imagesjson)
+
+    * [JSON Structure Overview](#json-structure-overview)
+    * [`images[]` Entry Fields](#images-entry-fields)
+    * [Example](#example)
+  * [🌐 How to Request an Asset (via jsDelivr CDN)](#-how-to-request-an-asset-via-jsdelivr-cdn)
+
+    * [🔗 Base URL Format](#-base-url-format)
+    * [🧪 Examples](#-examples)
+
+      * [🌀 Deep Sky Object (e.g. NGC 1976, 1280x900)](#-deep-sky-object-eg-ngc-1976-1280x900)
+      * [🌙 Moon Phase image](#-moon-phase-image)
+      * [🌌 Constellation Chart (e.g. Orion)](#-constellation-chart-eg-orion)
+      * [🔧 Fallback (e.g. if an image is missing)](#-fallback-eg-if-an-image-is-missing)
+  * [🏷️ Usage Guidelines](#️-usage-guidelines)
+  * [📚 Credits & Sources](#-credits--sources)
+  * [⚖️ License](#️-license)
 
 ---
+
 ## 📂 Folder Structure Overview
 
 ```
@@ -109,14 +115,14 @@ Each Deep Sky Object image folder includes a metadata file named like `ngc_1976_
 
 ---
 
-## 🌐 How to Request an Asset (via [Statically CDN](https://statically.io))
+## 🌐 How to Request an Asset (via [jsDelivr CDN](https://www.jsdelivr.com/))
 
-You can load any asset directly from this repository using Statically's CDN. Replace `<path>` with the relative file path from the `images/` folder.
+You can load any asset directly from this repository using jsDelivr's CDN. Replace `<path>` with the relative file path from the `images/` folder.
 
 ### 🔗 Base URL Format
 
 ```
-https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/<path>
+https://cdn.jsdelivr.net/gh/CelestialyXYZ/Astronomy-images@master/images/<path>
 ```
 
 ### 🧪 Examples
@@ -126,19 +132,19 @@ https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/<path>
 **Image:**
 
 ```
-https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/dso/ngc/1280x900/ngc_1976_default.jpg
+https://cdn.jsdelivr.net/gh/CelestialyXYZ/Astronomy-images@master/images/dso/ngc/1280x900/ngc_1976_default.jpg
 ```
 
 **Metadata JSON:**
 
 ```
-https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/dso/ngc/1280x900/ngc_1976_images.json
+https://cdn.jsdelivr.net/gh/CelestialyXYZ/Astronomy-images@master/images/dso/ngc/1280x900/ngc_1976_images.json
 ```
 
 #### 🌙 Moon Phase image
 
 ```
-https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/moon/moon_100.jpg
+https://cdn.jsdelivr.net/gh/CelestialyXYZ/Astronomy-images@master/images/moon/moon_100.jpg
 ```
 
 #### 🌌 Constellation Chart (e.g. Orion)
@@ -146,19 +152,19 @@ https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/moon/m
 **JPG:**
 
 ```
-https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/constellations/jpg/Ori.jpg
+https://cdn.jsdelivr.net/gh/CelestialyXYZ/Astronomy-images@master/images/constellations/jpg/Ori.jpg
 ```
 
 **PDF:**
 
 ```
-https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/constellations/pdf/Ori.pdf
+https://cdn.jsdelivr.net/gh/CelestialyXYZ/Astronomy-images@master/images/constellations/pdf/Ori.pdf
 ```
 
 #### 🔧 Fallback (e.g. if an image is missing)
 
 ```
-https://cdn.statically.io/gh/CelestialyXYZ/Astronomy-images/master/images/not_available/fallback_1280x900.jpg
+https://cdn.jsdelivr.net/gh/CelestialyXYZ/Astronomy-images@master/images/not_available/fallback_1280x900.jpg
 ```
 
 ---
