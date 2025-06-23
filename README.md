@@ -1,6 +1,12 @@
-# 🌌 Astronomy Images Repository
+<img src="logo.svg" alt="Astronomy images repository Logo" width="200"/><br/><br/>
 
-## Most complete Astronomy IC/NGC/Messier images catalog available
+# Astronomy images repository
+The most advanced open source catalog of DSO objects images and astronomy images. An initiative of the Celestialy project.
+
+![GitHub repo size](https://img.shields.io/github/stars/CelestialyXYZ/Astronomy-images)
+![GitHub last commit](https://img.shields.io/github/last-commit/CelestialyXYZ/Astronomy-images)
+![GitHub issues](https://img.shields.io/github/issues/CelestialyXYZ/Astronomy-images)
+---
 
 A curated collection of astronomical images organized by object type and resolution. Intended for use in educational, outreach, visualization, and research projects.
 
